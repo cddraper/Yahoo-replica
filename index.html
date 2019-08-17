@@ -11,11 +11,11 @@
 			<a href="https://www.yahoo.com"><img id="yahoo" src="https://www.underconsideration.com/brandnew/archives/yahoo_logo_detail.png" alt="logo"></a>
 			<form id="searchbar">
 				<input type="search" id="searchfield" placeholder=" search...">
-				<input type="submit" id="searchicon">
+				<button type="submit" id="searchbutton"><i class="fas fa-search"></i></button>
 			</form>
 			<ul id="navlinks">
-				<li><a href="#">Sign in</a></li>
-				<li><a href="#">Notifications</a></li>
+				<li><a href="#" id="signin">Sign in</a></li>
+				<li><a href="#"><i class="fas fa-bell"></i></a></li>
 				<li><a href="#"><i class="fas fa-envelope"></i> Mail</a></li>
 			</ul>
 		</nav>
@@ -31,14 +31,17 @@
 				<li><a href="#">More...</a></li>
 			</ul>
 		<section id="stories">
+
 			<div id="mainstory">
 				<div id="mainstory1">
 				</div>
-				<div id="mainstory2>
-					<h2>Story title</h2>
+				<div id="mainstory2">
+					<h2>'Story title'</h2>
 					<p>story text story text story text story text story text story text</p>
-				</div>
+					<p id="comment"><i class="far fa-comment-alt"></i> 100 people reacting</p>	
 			</div>
+			</div>
+			
 			<div id="substories">
 				<a href="#"><img src="#" alt="story image"></a>
 				<a href="#"><img src="#" alt="story image"></a>
@@ -46,6 +49,10 @@
 				<a href="#"><img src="#" alt="story image"></a>
 				<a href="#"><img src="#" alt="story image"></a>
 			</div>
+
+			<div id="makehomepage">
+			<button type="submit" id="mhpbutton"></button>
+
 			<div id="trending">
 				<h2>Trending Now</h2>
 				<ol id="trendingol">
