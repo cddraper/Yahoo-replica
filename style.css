@@ -67,6 +67,11 @@ body {
 	padding: 5px 10px;
 }
 
+#signin:hover {
+	color: white;
+	background: #4d00ae;
+}
+
 #navlinks li a {
 	text-decoration: none;
 	color: #4d00ae;
@@ -78,6 +83,7 @@ body {
 	display: flex;
 	font-size: 14px;
 	padding-left: 0;
+	margin-bottom: 30px;
 }
 
 #linksul li {
@@ -114,4 +120,106 @@ body {
 	box-sizing: border-box;
 	color: white;
 	
+}
+
+#substories {
+	display: flex;
+}
+
+#substories div {
+	width: 168.8px;
+	height: 79.43px;
+	margin: 10px 10px 5px 0;
+	border: 0.1px solid black;
+	border-radius: 2px;
+}
+
+#substories a {
+	text-decoration: none;
+	color: darkblue;
+	font-size: 12px;
+	font-weight: bold;
+	width: 168.8px;
+	
+}
+
+#img1 {
+	background-image: url(https://images.unsplash.com/photo-1455885661740-29cbf08a42fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#img2 {
+	background-image: url(https://images.unsplash.com/photo-1562774352-1fa96c1d1558?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+
+#img3 {
+	background-image: url(https://images.unsplash.com/photo-1549927965-b8e5df5162d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#img4 {
+	background-image: url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#img5 {
+	background-image: url(https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin-right: 0;
+}
+
+#sidebar {
+	position: absolute;
+	left: 70%;
+	top: 136.8px;
+	justify-content: center;
+}
+
+#mhpbutton {
+	width: 300px;
+	height: 44px;
+	color: #4d00ae;
+	background: white;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#mhpbutton:hover {
+	background: #4d00ae;
+	color: white;
+	cursor: pointer;
+}
+
+#trending h2 {
+	font-size: 15px;
+}
+
+#trendingol {
+	column-count: 2;
+	padding-left: 20px;
+}
+
+#trendingol li {
+	padding-top: 8px;
+}
+
+#trendingol a {
+	text-decoration: none;
+	color: darkblue;
+	font-size: 13px;
+	font-weight: bold;
 }
